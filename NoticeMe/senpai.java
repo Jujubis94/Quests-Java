@@ -1,7 +1,7 @@
 package NoticeMe;
 class Senpai {
     public static void main(String[] args) {
-        // afficher Hello World! dans le terminal
+        // afficher Notice me Senpai dans le terminal
         System.out.println("Notice me Senpai");
     }
 }
