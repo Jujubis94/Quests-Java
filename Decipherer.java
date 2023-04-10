@@ -2,7 +2,7 @@ public class Decipherer {
 
     public static String decipher(String message) {
         int keyNumber = message.length() / 2;
-        String chain = message.substring(5, 5 + keyNumber).replaceAll("@#\\?", " ");
+        String chain = message.substring(5, 5 + keyNumber).replace("@#?", " ");
         StringBuilder sb = new StringBuilder(chain);
         return sb.reverse().toString();
     }
